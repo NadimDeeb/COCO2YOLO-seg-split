@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: GPL-3.0-only
+# Derived from: coco2yolo (https://github.com/tw-yshuang/coco2yolo)
+# Modifications: RLE (crowd) decoding, YOLOv5/8 segmentation output, polygon cleanup
+# Modified: 2025-08-15
+# Copyright (C) 2025 Nadim Dib ngd04@aub.edu.lb
+# This program is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License version 3 as published by the FSF.
+# See the LICENSE file in this repository for full license text.
 
 """
 COCO -> YOLO segmentation label converter
